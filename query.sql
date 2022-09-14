@@ -1,4 +1,4 @@
-CREATE DATABASE recipes_database;
+-- CREATE DATABASE recipes_database;
 USE recipes_database;
 
 CREATE TABLE recipe_ingredients (
