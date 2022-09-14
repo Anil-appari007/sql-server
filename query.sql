@@ -1,12 +1,12 @@
 -- CREATE DATABASE recipes_database;
 USE recipes_database;
 
-CREATE TABLE recipe_ingredients (
-  recipe_id int NOT NULL, 
-  ingredient_id INT NOT NULL, 
-  amount INT NOT NULL,
-  PRIMARY KEY (recipe_id,ingredient_id)
-);
+-- CREATE TABLE recipe_ingredients (
+--   recipe_id int NOT NULL, 
+--   ingredient_id INT NOT NULL, 
+--   amount INT NOT NULL,
+--   PRIMARY KEY (recipe_id,ingredient_id)
+-- );
 
 INSERT INTO recipe_ingredients 
     (recipe_id, ingredient_id, amount)
